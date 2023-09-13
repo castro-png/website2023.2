@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@500&family=Open+Sans&family=Oswald&family=Roboto:ital@0;1&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(11, 11, 15);
+}
+
+.wrapper {
+    background-color: rgb(12, 12, 15);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 1em;
+    padding: 30px 10%;
+}
+
+li, a, button {
+    font-size: 24px;
+    text-decoration: none;
+    color: rgb(232, 232, 232);
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline;
+    padding: 0px 35px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: rgba(68, 142, 160, 0.818);
+}
+
+button {
+    padding: 9px 15px;
+    background-color: rgba(68, 142, 160, 0.818);
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(68, 160, 158, 0.454);
+}
+
+.wrapper2 {
+    max-width: 50rem;
+    padding-inline: 1rem;
+    margin-inline: auto;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+}
+
+section {
+    padding-block: 2rem;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.25rem;
+    color: white;
+}
+
+.diagonal {
+    position: relative;
+    background-image: linear-gradient(45deg, #180c17, #231d4b, #224b59);
+}
+
+.diagonal::after {
+    content: '';
+    background-image: linear-gradient(45deg, #180c17, #231d4b, #224b59);
+    position: absolute;
+    z-index: -2;
+    inset: 0;
+    transform: skewY(-2deg);
+}
+
+h2 {
+    text-align: center;
+    position: relative;
+    display: block;
+    cursor: pointer;
+    padding: 0 10px;
+    transition: all 0.3s ease 0s;
+}
+
+h2:hover{
+   color: rgba(68, 160, 112, 0.454);;
+}
+
